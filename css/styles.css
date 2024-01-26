@@ -1,3 +1,26 @@
+:root {
+  --brand-color: #ffffffff;
+  --blue: #4d5ae5;
+  --dark-blue: #2e2f42;
+  --more-blue: #434455;
+  --light-color: #f4f4fd;
+  --button-color: #4d5ae5;
+  --main-button: #e7e9fc;
+  --link-color: #8e8f99;
+  --check-color: #404bbf;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* .container .adaptive {
+
+    max-width: 320px;
+} */
+
 *,
 *::before,
 *::after {
@@ -9,6 +32,10 @@ body {
   color: #434455;
   background-color: var(--brand-color);
   /* overflow-x: hidden; */
+}
+
+img {
+  display: block;
 }
 
 p {
@@ -92,33 +119,6 @@ ul {
   justify-content: space-between;
   gap: 40px;
 }
-
-img {
-  display: block;
-}
-
-:root {
-  --brand-color: #ffffffff;
-  --blue: #4d5ae5;
-  --dark-blue: #2e2f42;
-  --more-blue: #434455;
-  --light-color: #f4f4fd;
-  --button-color: #4d5ae5;
-  --main-button: #e7e9fc;
-  --link-color: #8e8f99;
-  --check-color: #404bbf;
-}
-
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-/* .container .adaptive {
-
-    max-width: 320px;
-} */
 
 .second-link {
   padding: 24px 0;
