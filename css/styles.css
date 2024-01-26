@@ -11,11 +11,6 @@ body {
   /* overflow-x: hidden; */
 }
 
-/* html {
-
-    overflow-x: hidden;
-} */
-
 p {
   margin: 0;
 }
@@ -353,7 +348,7 @@ img {
   padding-bottom: 120px;
 }
 
-/* .hidden-title {
+.hidden-title {
   visibility: hidden;
   height: 1px;
   overflow: hidden;
@@ -409,7 +404,7 @@ img {
 
 .job {
   text-align: center;
-} */
+}
 
 .logo-st {
   display: inline-block;
@@ -1640,14 +1635,12 @@ a:focus use {
   }
 
   /* .btn-subscribe {
-
-                            margin-left: 50px;
-                        } */
+ margin-left: 50px; 
+} */
 
   /* .footer-div-logo {
-
-                            margin-right: 90px;
-                        }  */
+ margin-right: 90px;
+   }  */
 
   .subs-class {
     margin-left: 20px;
@@ -1881,3 +1874,8 @@ a:focus use {
     color: var(--WHITE, #fff);
   }
 }
+
+/* html {
+
+    overflow-x: hidden;
+} */
