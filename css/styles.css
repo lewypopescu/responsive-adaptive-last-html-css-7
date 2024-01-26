@@ -353,7 +353,7 @@ img {
   padding-bottom: 120px;
 }
 
-.hidden-title {
+/* .hidden-title {
   visibility: hidden;
   height: 1px;
   overflow: hidden;
@@ -409,7 +409,7 @@ img {
 
 .job {
   text-align: center;
-}
+} */
 
 .logo-st {
   display: inline-block;
