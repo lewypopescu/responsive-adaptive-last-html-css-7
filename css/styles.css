@@ -772,7 +772,7 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header {
+/* .header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
@@ -806,7 +806,7 @@ button {
 .card-container {
   position: relative;
   overflow: hidden;
-}
+} */
 
 .app-storage {
   position: absolute;
