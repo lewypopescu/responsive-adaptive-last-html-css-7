@@ -10,17 +10,6 @@
   --check-color: #404bbf;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-/* .container .adaptive {
-
-    max-width: 320px;
-} */
-
 *,
 *::before,
 *::after {
@@ -32,6 +21,10 @@ body {
   color: #434455;
   background-color: var(--brand-color);
   /* overflow-x: hidden; */
+}
+
+button {
+  margin: 0;
 }
 
 img {
@@ -53,6 +46,26 @@ div {
 ul {
   padding: 0%;
   margin: 0;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* .container .adaptive {
+
+    max-width: 320px;
+} */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .navig {
@@ -99,15 +112,6 @@ ul {
   cursor: pointer;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .subscribe-section {
@@ -780,10 +784,6 @@ ul {
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-/* button {
-  margin: 0;
-}
-
 .md-sv {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -806,7 +806,7 @@ ul {
 .card-container {
   position: relative;
   overflow: hidden;
-} */
+}
 
 .app-storage {
   position: absolute;
