@@ -1076,7 +1076,7 @@ a:focus use {
 /* QUERIES */
 
 @media screen and (max-width: 428px) {
-  #mySubs {
+  /* #mySubs {
     margin-left: 150px;
   }
 
@@ -1091,7 +1091,7 @@ a:focus use {
   .input--class {
     width: 350px;
     margin-bottom: 30px;
-  }
+  } */
 
   /* #myPH {
     
